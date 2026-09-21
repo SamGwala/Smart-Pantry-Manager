@@ -57,7 +57,7 @@ list. A recipe missing exactly one ingredient is shown separately in an
 2. Open the project folder in **Android Studio** (Hedgehog or newer recommended).
 3. Let Gradle sync (it will download the AndroidX/Material dependencies).
 4. Run on an emulator or physical device with **minSdk 24 (Android 7.0)** or higher.
-5. On first launch, the app seeds its own recipe book automatically — no
+5. On first launch, the app seeds its own recipe book automatically no
    extra setup needed.
 
 ## Tech Stack
@@ -68,8 +68,4 @@ list. A recipe missing exactly one ingredient is shown separately in an
 - RecyclerView + custom Adapters
 - Material Components (BottomNavigationView, TextInputLayout, FAB)
 
-## Out of Scope (per assignment brief)
 
-- No Google Maps / mapping SDK / GPS or location features
-- No payment processing
-- Not published to the Google Play Store
