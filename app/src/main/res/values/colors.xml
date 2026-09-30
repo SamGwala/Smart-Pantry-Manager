@@ -1,0 +1,14 @@
+<resources>
+    <!-- "Pantry Ledger" palette - kraft paper, ink, and a stamp accent,
+         instead of the generic green/leaf food-app look. -->
+    <color name="colorPrimary">#1F2A24</color>
+    <color name="colorPrimaryDark">#141C18</color>
+    <color name="colorAccent">#C1440E</color>
+    <color name="colorBackground">#F3ECDD</color>
+    <color name="colorCard">#FFFDF8</color>
+    <color name="colorTextPrimary">#2B2621</color>
+    <color name="colorTextSecondary">#6B6259</color>
+    <color name="colorMatch">#C1440E</color>
+    <color name="colorAlmost">#8A9A5B</color>
+    <color name="white">#FFFFFF</color>
+</resources>
