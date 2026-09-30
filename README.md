@@ -2,12 +2,13 @@
 
 An Android application (Java) that helps reduce food waste by tracking the
 ingredients a user has at home and suggesting only the recipes they can
-make **right now**, using strictly the ingredients already in their pantry.
+make right now using strictly the ingredients already in their pantry.
 
 ## Why this app?
 
-Many people throw away food because they forget what they have, or they
-buy extra ingredients for a recipe instead of using what's already in the
+Many people throw away food, I am just as guilty of this because we tend to  forget what we have 
+sometimes you really just don't know what to cook with what you already have. You end up 
+buying  extra ingredients for a recipe instead of using what's already in the
 kitchen. Smart Pantry Manager solves this with a strict-matching rule: a
 recipe is only suggested if every single ingredient it needs is already in
 the pantry, in a large enough quantity. No partial matches, no "almost"
@@ -15,7 +16,7 @@ recipes cluttering the main list.
 
 ## Features
 
-- Add, edit, and delete pantry ingredients (name, quantity, unit, optional expiry date)
+- Add, edit and delete pantry ingredients (name, quantity, unit, optional expiry date)
 - Pantry list screen backed by a RecyclerView and a custom adapter
 - A seeded collection of 18 recipes, each with an ingredient list and method
 - Suggested Recipes screen applying the strict-matching algorithm
@@ -26,10 +27,9 @@ recipes cluttering the main list.
 
 ## Database
 
-**SQLite**, implemented locally on-device using `SQLiteOpenHelper`
+SQLite implemented locally on-device using SQLiteOpenHelper
 (`DatabaseHelper.java`). Chosen because:
-- The brief's own module content covers SQLiteOpenHelper directly, and it
-  keeps the app fully offline with no backend to configure or pay for.
+- It keeps the app fully offline with no backend to configure or pay for.
 - The data (a personal pantry) is inherently local to one user/device, so
   cloud sync isn't a core requirement for this use case.
 - It's straightforward to demonstrate genuine CRUD and persistence
